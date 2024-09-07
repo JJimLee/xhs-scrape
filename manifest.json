@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "XiaoHongShu Data Collector",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "map.png",
+      "48": "map.png",
+      "128": "map.png"
+    }
+  }
+}
